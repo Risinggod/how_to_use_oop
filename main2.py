@@ -20,6 +20,7 @@ kunde_1.setort("Adelsdorf")
 kunde_1.sethausnummer(14)
 kunde_1.setplz(91325)
 
+
 bestellung_2=Bestellung()
 bestellung_2.setmenge(20)
 bestellung_2.setpreis("30€")
@@ -29,6 +30,8 @@ bestellung_2.setBestellnummer("17453")
 
 kunde_1.addbestellung(bestellung_1)
 kunde_1.addbestellung(bestellung_2)
+
+kunde_1.getbestellungen()
 
 
 

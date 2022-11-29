@@ -13,7 +13,7 @@ class Kunde:
         self.__bestellungen.append(bestellung)
 
     def stornoalle(self):
-        pass
+        self.__bestellungen.clear()
 
     def getbestellungen(self):
         return self.__bestellungen
