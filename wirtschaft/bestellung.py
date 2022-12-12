@@ -5,7 +5,12 @@ class Bestellung:
     __versandkosten= ""
     __Bestellnummer= ""
     __bezeichnung= ""
+    __artikel=[]
 
+    def add_artikel(self, artikel):
+        self.__artikel.append(artikel)
+    def get_artikel(self):
+        return self.__artikel
     #konstruktor
     def __init__(self):
         print("objekt wurde erzeugt")
